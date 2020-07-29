@@ -11,17 +11,17 @@ void draw() {
   background(#DEDEDE);
   for (int i = 40; i > 0; i --) { 
     if (i%2 == 0) {
-      fill(#DEDEDE);
+     noFill();
     } else {
-      fill(#030000);
+      noFill();
     }
     ellipse(x1, 200, i*5, i*5);
   }
    for (int i = 40; i > 0; i --) { 
     if (i%2 == 0) {
-      fill(#DEDEDE);
+      noFill();
     } else {
-      fill(#030000);
+      noFill();
     }
     ellipse(x2, 200, i*5, i*5);
   }
